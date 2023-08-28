@@ -1,12 +1,16 @@
 package mad.g7.nak.ex2
 
+import android.app.Activity
+import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,8 +32,15 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
 //                Toast.makeText(this, "Login successfully" , Toast.LENGTH_SHORT).show()
             }else{
+                val rootView = findViewById<View>(android.R.id.content)
+                val imm = getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
+                imm.hideSoftInputFromWindow(rootView.getWindowToken(), 0);
                 Toast.makeText(this, "Wrong username or password" , Toast.LENGTH_SHORT).show()
             }
         }
     }
+
+
+
+
 }
