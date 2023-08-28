@@ -1,6 +1,6 @@
 # Android Execrise 2
 
-In this project, we cover about In this Exercise. We will learn how to build a simple login pass using EditText, Button, Toast and Intent
+In this Exercise. We will learn how to build a simple login pass using EditText, Button, Toast and Intent
 
 ## Requirement
 
