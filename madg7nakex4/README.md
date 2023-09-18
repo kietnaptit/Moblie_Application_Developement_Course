@@ -1,4 +1,4 @@
-# Android Execrise 4
+# Android Exercise 4
 
 In this Exercise. We will learn how to build a Simple Calculator app using TextView and Button in Kotlin
 
