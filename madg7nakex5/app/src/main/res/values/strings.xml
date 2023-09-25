@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">madg7nakex5</string>
+    <string name="item1_lv1_1">Player Management</string>
+    <string name="item1_lv2_1">Add</string>
+    <string name="item1_lv2_2">Edit</string>
+    <string name="item1_lv2_3">Delete</string>
+    <string name="item2_lv1_1">View Scoreboard</string>
+    <string name="item2_lv2_1">Personal Scoreboard</string>
+    <string name="item2_lv2_2">Team Scoreboard</string>
+    <string name="item2_lv2_3">Elo Scoreboard</string>
+    <string name="item3_lv1_1">Settings</string>
+    <string name="Setting_fragment">Setting Menu</string>
+</resources>

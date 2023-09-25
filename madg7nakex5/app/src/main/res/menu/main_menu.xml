@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:showAsAction="ifRoom"
+    tools:context=".MainActivity">
+
+    <item android:id="@+id/menu_item1"
+        android:title="@string/item1_lv1_1">
+        <menu>
+            <item android:id="@+id/submenu_item1_1"
+                android:title="@string/item1_lv2_1" />
+            <item android:id="@+id/submenu_item1_2"
+                android:title="@string/item1_lv2_2" />
+            <item android:id="@+id/submenu_item1_3"
+                android:title="@string/item1_lv2_3" />
+        </menu>
+
+    </item>
+    <item android:id="@+id/menu_item2"
+        android:title="@string/item2_lv1_1">
+        <menu>
+            <item android:id="@+id/submenu_item2_1"
+                android:title="@string/item2_lv2_1" />
+            <item android:id="@+id/submenu_item2_2"
+                android:title="@string/item2_lv2_2" />
+            <item android:id="@+id/submenu_item2_3"
+                android:title="@string/item2_lv2_3" />
+        </menu>
+    </item>
+    <item android:id="@+id/menu_item3"
+        android:title="@string/item3_lv1_1" />
+
+</menu>
