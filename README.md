@@ -1,4 +1,4 @@
-# Moblie Application Developement Course
+# Mobile Application Developement Course
 
 
 This course is studied by me at Posts and Telecommunications Institute of Technology (PTIT)
