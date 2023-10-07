@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">mad.g7.nak.ex3</string>
+    <string name="pick_geometry">Select geometry:</string>
+    <string name="pick_color">Select color:</string>
+    <string-array name="colors">
+        <item>Select Color</item>
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Pink</item>
+        <item>Yellow</item>
+    </string-array>
+
+    <string-array name="geometrys">
+        <item>Select Geometry</item>
+        <item>Triangle</item>
+        <item>Circle</item>
+        <item>Square</item>
+        <item>Rectangle</item>
+        <item>Elip</item>
+    </string-array>
+</resources>
