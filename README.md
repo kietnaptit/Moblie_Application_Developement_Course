@@ -15,6 +15,7 @@ In this course, we will study how to make application in Android. Student can ch
 5. madg7nakex5: Multi-level Menu
 6. madg7nakex6: Data Class, SQLite Database (Read)
 7. [KotlinCRUDDemo](https://github.com/kietnaptit/KotlinCRUDDemo.git): SQLite Database (CRUD), RecycleView with Custom Adapter
+8. [Cat Management](https://github.com/kietnaptit/Cat-Management.git): SQLite Database (CRUD), Spinner & RecycleView with Custom Adapter
 
 
 ## How to view
